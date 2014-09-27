@@ -2,7 +2,7 @@
 
 # Hipster - version 1.0.0-rc1
 
-Welcome to Hipster - an open-source java library for Heuristic Search.The aim of Hipster is to provide an easy to use yet powerful and flexible type-safe Java library for heuristic search. Hipster relies on a flexible model with generic operators that allow you to reuse and change the behavior of the algorithms very easily. Algorithms are also implemented in an iterative way, avoiding recursion. This has many benefits: full control over the search, access to the internals at runtime or a better and clear scale-out for large search spaces using the heap memory.
+Welcome to Hipster - an open-source java library for Heuristic Search. The aim of Hipster is to provide an easy to use yet powerful and flexible type-safe Java library for heuristic search. Hipster relies on a flexible model with generic operators that allow you to reuse and change the behavior of the algorithms very easily. Algorithms are also implemented in an iterative way, avoiding recursion. This has many benefits: full control over the search, access to the internals at runtime or a better and clear scale-out for large search spaces using the heap memory.
 
 You can use Hipster to solve from simple graph search problems to more advanced state-space search problems where the state space is complex and weights are not just double values but custom defined costs.
 
@@ -10,7 +10,7 @@ You can use Hipster to solve from simple graph search problems to more advanced 
 
 Surprisingy, there is a lack of Java libraries that implement search algorithms with an extensible, flexible and simple to use model. In fact, most of the libraries rely on graph structures or recursive implementations which do not offer fine-grained control over the algorithm. It is very common to find many projects (such as graph libraries, noSQL databasest, etc) reinventing the wheel each time they need to use a common search algorithm to solve a concrete problem.
 
-Hipster aimed to solve this problem by providing the common components of a search algorithm.
+Hipster aims to solve this problem by providing the common components of a search algorithm.
 
 ## Hipster License
 
